@@ -137,6 +137,11 @@
       "name": "Search",
       "items": [
         {
+          "name": "Spotify",
+          "desc": "Search Song On Spotify",
+          "path": "/search/Spotify?q="
+        },
+        {
           "name": "Jadwal Sholat",
           "desc": "Search Info Jadwal Sholat",
           "path": "/search/jadwalsholat?q="
