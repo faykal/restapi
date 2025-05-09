@@ -1,0 +1,187 @@
+{
+  "name": "Kall Api's",
+  "version": "1.1.17",
+  "description": "Simple API with easy and minimalistic integration for WhatsApp Bot Developers.",
+  "header": {
+    "status": "Online!",
+    "imageSrc": [
+      "https://img1.pixhost.to/images/5605/596387942_faykal.gif"
+    ],
+    "imageSize": {
+      "mobile": "80%",
+      "tablet": "40%",
+      "desktop": "40%"
+    }
+  },
+  "apiSettings": {
+    "creator": "Faykal"
+  },
+  "links": [
+    {
+      "name": "Contact Support",
+      "url": "https://wa.me/6285857157363"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Order Kuota",
+      "items": [
+        {
+          "name": "Create Payment",
+          "desc": "Create Qr Payment to orkut",
+          "path": "/orderkuota/createpayment?amount=&codeqr="
+        },
+        {
+          "name": "Check Status",
+          "desc": "Status Payment from orkut",
+          "path": "/orderkuota/cekstatus?merchant=&keyorkut="
+        }
+      ]
+    },
+    {
+      "name": "Artificial Intelligence",
+      "items": [
+        {
+          "name": "LuminAI",
+          "desc": "Talk With Luminai",
+          "path": "/ai/luminai?text="
+        },
+        {
+          "name": "HydroMind",
+          "desc": "Talk With Hydromind",
+          "path": "/ai/hydromind?text=&model=",
+          "innerDesc": "See the list of supported AI models here: https://mind.hydrooo.web.id"
+        }
+      ]
+    },
+    {
+      "name": "Downloader",
+      "items": [
+        {
+          "name": "Mediafire",
+          "desc": "File Download",
+          "path": "/download/mediafire?url="
+        },
+        {
+          "name": "Spotify",
+          "desc": "Download Song From Spotify",
+          "path": "/download/spotify?url="
+        },
+        {
+          "name": "Facebook",
+          "desc": "Video Download",
+          "path": "/download/Facebook?url="
+        },
+        {
+          "name": "Tiktok",
+          "desc": "Video Download",
+          "path": "/download/tiktok?url="
+        },
+        {
+          "name": "Instagram",
+          "desc": "Video Download",
+          "path": "/download/instagram?url="
+        },
+        {
+          "name": "Twitter",
+          "desc": "Video Download",
+          "path": "/download/twitter?url="
+        },
+        {
+          "name": "YouTube Audio",
+          "desc": "Audio Download",
+          "path": "/download/ytmp3?url="
+        },
+        {
+          "name": "YouTube Video",
+          "desc": "Video Download",
+          "path": "/download/ytmp4?url="
+        }
+      ]
+    },
+    {
+      "name": "Random",
+      "items": [
+        {
+          "name": "Gempa",
+          "desc": "Information Gempa",
+          "path": "/random/gempa"
+        },
+        {
+          "name": "Blue Archive",
+          "desc": "Blue Archive Random Images",
+          "path": "/random/ba"
+        },
+        {
+          "name": "Loli",
+          "desc": "Loli Random Images",
+          "path": "/random/loli"
+        },
+        {
+          "name": "Brat",
+          "desc": "Brat Images To Text",
+          "path": "/random/brat?text="
+        },{
+          "name": "Brat Animated",
+          "desc": "Brat Images To Text Animated",
+          "path": "/random/bratanimated?text="
+        }
+      ]
+    },
+    {
+      "name": "Search",
+      "items": [
+        {
+          "name": "Jadwal Sholat",
+          "desc": "Search Info Jadwal Sholat",
+          "path": "/search/jadwalsholat?q="
+        },
+        {
+          "name": "Cuaca",
+          "desc": "Search Info Cuaca",
+          "path": "/search/cuaca?q="
+        },
+        {
+          "name": "Pinterest",
+          "desc": "Search Image On Pinterest",
+          "path": "/search/pinterest?q="
+        },
+        {
+          "name": "TikTok",
+          "desc": "Search Video On Tiktok",
+          "path": "/search/tiktok?q="
+        },
+        {
+          "name": "YouTube",
+          "desc": "Search Video On Youtube",
+          "path": "/search/youtube?q="
+        }
+      ]
+    },
+    {
+      "name": "Stalk",
+      "items": [
+        {
+          "name": "FreeFire",
+          "desc": "Get Info FreeFire Account",
+          "path": "/stalk/ffstalk?id="
+        },
+        {
+          "name": "Mobile Legends",
+          "desc": "Get Info Mobile Legend Account",
+          "path": "/stalk/mlstalk?id=&zone="
+        },
+        {
+          "name": "Instagram",
+          "desc": "Instagram Stalk",
+          "path": "/stalk/instagram?user="
+        },
+        {
+          "name": "TikTok",
+          "desc": "Tiktok Stalk",
+          "path": "/stalk/tiktok?user="
+        }
+      ]
+    }
+  ]
+}
