@@ -228,6 +228,16 @@
       "name": "Stalk",
       "items": [
         {
+          "name": "Twitter",
+          "desc": "Twitter Stalk",
+          "path": "/stalk/twitterstalk?user="
+        },
+        {
+          "name": "Genshin Impact",
+          "desc": "Get Info Genshin Account",
+          "path": "/stalk/genshinstalk?id="
+        },
+        {
           "name": "Pubg Mobile",
           "desc": "Get Info Pubg Account",
           "path": "/stalk/pubgstalk?id="
