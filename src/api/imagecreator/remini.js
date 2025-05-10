@@ -102,8 +102,12 @@ app.get('/imagecreator/removebg', async (req, res) => {
 });
 
 app.get('/imagecreator/remini', async (req, res) => {
+       const { url } = req.query;
+            if (!url) {
+                return res.status(400).json({ status: false, error: 'Url is required' });
+            }
         try {
-            let image = await getBuffer(`https://files.catbox.moe/2pvb4j.jpg`)
+            let image = await getBuffer(url)
             const result = await pxpic.create(image, "enhance")
             res.status(200).json({
                 status: true,
@@ -113,6 +117,7 @@ app.get('/imagecreator/remini', async (req, res) => {
             res.status(500).send(`Error: ${error.message}`);
         }
 });
+
 app.get('/imagecreator/upscale', async (req, res) => {
        const { url } = req.query;
             if (!url) {
