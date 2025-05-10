@@ -58,6 +58,11 @@
       "name": "Downloader",
       "items": [
         {
+          "name": "YouTube Play",
+          "desc": "Play Song On Youtube",
+          "path": "/download/ytplaymp3?q="
+        },
+        {
           "name": "Pinterest",
           "desc": "Download Image/Video",
           "path": "/download/pinterest?url="
