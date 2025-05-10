@@ -42,6 +42,11 @@
       "name": "Artificial Intelligence",
       "items": [
         {
+          "name": "Bard",
+          "desc": "Talk With Bard ai",
+          "path": "/ai/bard?text="
+        },
+        {
           "name": "LuminAI",
           "desc": "Talk With Luminai",
           "path": "/ai/luminai?text="
@@ -148,6 +153,16 @@
       "name": "Random",
       "items": [
         {
+          "name": "Cerpen",
+          "desc": "Collection Of Short Stories",
+          "path": "/random/cerpen"
+        },
+        {
+          "name": "Quotes Anime",
+          "desc": "Quotes From Anime Characters",
+          "path": "/random/quotesanime"
+        },
+        {
           "name": "Gempa",
           "desc": "Information Gempa",
           "path": "/random/gempa"
@@ -167,6 +182,16 @@
     {
       "name": "Search",
       "items": [
+        {
+          "name": "Playstore",
+          "desc": "Search Apk Playstore",
+          "path": "/search/playstore?q="
+        },
+        {
+          "name": "lyrics",
+          "desc": "Search lyrics On Song",
+          "path": "/search/lyrics?q="
+        },
         {
           "name": "Spotify",
           "desc": "Search Song On Spotify",
@@ -202,6 +227,16 @@
     {
       "name": "Stalk",
       "items": [
+        {
+          "name": "Pubg Mobile",
+          "desc": "Get Info Pubg Account",
+          "path": "/stalk/pubgstalk?id="
+        },
+        {
+          "name": "Honor Of Kings",
+          "desc": "Get Info Hok Account",
+          "path": "/stalk/hokstalk?id="
+        },
         {
           "name": "FreeFire",
           "desc": "Get Info FreeFire Account",
