@@ -105,6 +105,36 @@
       ]
     },
     {
+      "name": "Image Creator",
+      "items": [
+        {
+          "name": "Brat",
+          "desc": "Brat Images To Text",
+          "path": "/imagecreator/brat?text="
+        },
+        {
+          "name": "Brat Animated",
+          "desc": "Brat Images To Text Animated",
+          "path": "/imagecreator/bratanimated?text="
+        },
+        {
+          "name": "Remove Background",
+          "desc": "Remove Background From Image",
+          "path": "/imagecreator/removebg?url="
+        },
+        {
+          "name": "Remini",
+          "desc": "Remini From Image",
+          "path": "/imagecreator/remini?url="
+        },
+        {
+          "name": "Brat Animated",
+          "desc": "Upscale From Image",
+          "path": "/imagecreator/upscale?url="
+        }
+      ]
+    },
+    {
       "name": "Random",
       "items": [
         {
@@ -121,15 +151,6 @@
           "name": "Loli",
           "desc": "Loli Random Images",
           "path": "/random/loli"
-        },
-        {
-          "name": "Brat",
-          "desc": "Brat Images To Text",
-          "path": "/random/brat?text="
-        },{
-          "name": "Brat Animated",
-          "desc": "Brat Images To Text Animated",
-          "path": "/random/bratanimated?text="
         }
       ]
     },
