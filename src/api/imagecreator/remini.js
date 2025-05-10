@@ -86,8 +86,6 @@ const pxpic = {
 module.exports = function(app) {
 app.get('/imagecreator/removebg', async (req, res) => {
        const { url } = req.query;
-           const { apikey } = req.query;
-           if (!global.apikey.includes(apikey)) return res.status(400).json({ status: false, error: 'Apikey invalid' })
             if (!url) {
                 return res.status(400).json({ status: false, error: 'Url is required' });
             }
