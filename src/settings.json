@@ -128,9 +128,14 @@
           "path": "/imagecreator/remini?url="
         },
         {
-          "name": "Brat Animated",
+          "name": "Upscale",
           "desc": "Upscale From Image",
           "path": "/imagecreator/upscale?url="
+        },
+        {
+          "name": "Colorize",
+          "desc": "Colorize From Image",
+          "path": "/imagecreator/colorize?url="
         }
       ]
     },
