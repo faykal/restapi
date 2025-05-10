@@ -135,7 +135,7 @@
         {
           "name": "Remini",
           "desc": "Remini From Image",
-          "path": "/imagecreator/remini?url="
+          "path": "/imagecreator/remini"
         },
         {
           "name": "Upscale",
