@@ -8,9 +8,9 @@
       "https://img1.pixhost.to/images/5605/596387942_faykal.gif"
     ],
     "imageSize": {
-      "mobile": "80%",
-      "tablet": "40%",
-      "desktop": "40%"
+      "mobile": "90%",
+      "tablet": "50%",
+      "desktop": "50%"
     }
   },
   "apiSettings": {
@@ -78,7 +78,7 @@
           "path": "/download/Facebook?url="
         },
         {
-          "name": "Tiktok",
+          "name": "TikTok",
           "desc": "Video Download",
           "path": "/download/tiktok?url="
         },
@@ -109,12 +109,12 @@
       "items": [
         {
           "name": "Brat",
-          "desc": "Brat Images To Text",
+          "desc": "Brat Generator",
           "path": "/imagecreator/brat?text="
         },
         {
           "name": "Brat Animated",
-          "desc": "Brat Images To Text Animated",
+          "desc": "Brat Generator Animated",
           "path": "/imagecreator/bratanimated?text="
         },
         {
